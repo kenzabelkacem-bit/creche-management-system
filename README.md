@@ -1,70 +1,291 @@
 # EducaRendez
 
-Application de gestion de rendez-vous développée dans le cadre d'un projet académique universitaire.
+## School Appointment Management System
 
-## Description
+EducaRendez is a cross-platform mobile application developed using Flutter. It allows parents, teachers and school administrators to efficiently manage appointments through a modern, secure and user-friendly interface.
 
-EducaRendez est une application multiplateforme développée avec Flutter permettant la gestion et la planification des rendez-vous entre parents, enseignants et administration.
+This project was developed as part of an academic mobile application development project.
 
-L'application offre une interface intuitive permettant la réservation, la consultation et la gestion des rendez-vous tout en assurant une gestion sécurisée des utilisateurs et des disponibilités.
+---
 
-## Fonctionnalités principales
+# Features
 
-- Authentification des utilisateurs
-- Gestion des rôles (Administrateur, Enseignant, Parent)
-- Réservation de rendez-vous
-- Consultation des créneaux disponibles
-- Gestion des disponibilités
-- Annulation des rendez-vous
-- Tableau de bord personnalisé selon le rôle
-- Statistiques administratives
-- Gestion des utilisateurs
-- Base de données locale SQLite
+## Authentication
 
-## Technologies utilisées
+- Secure login
+- User registration
+- Session management
 
-### Développement
+---
+
+## User Roles
+
+The application supports three different user roles:
+
+- Administrator
+- Teacher
+- Parent
+
+Each role has its own dashboard and permissions.
+
+---
+
+## Parent Dashboard
+
+Parents can:
+
+- Sign in securely
+- View available appointment slots
+- Book appointments
+- View their appointment history
+- Cancel appointments
+- Access their personal profile
+
+---
+
+## Teacher Dashboard
+
+Teachers can:
+
+- Access their professional dashboard
+- View appointments
+- Manage their schedule
+- Consult appointment information
+
+---
+
+## Administrator Dashboard
+
+The administrator has complete control over the application.
+
+Main functionalities include:
+
+- User management
+- Appointment management
+- Availability management
+- Statistics dashboard
+- Reports
+- User administration
+- Appointment status management
+- System monitoring
+
+---
+
+## Appointment Management
+
+The application allows users to:
+
+- Create appointments
+- Cancel appointments
+- Confirm appointments
+- Check availability
+- Manage appointment status
+
+Appointment status:
+
+- Pending
+- Confirmed
+- Cancelled
+
+---
+
+## Availability Management
+
+The system manages:
+
+- Weekly schedules
+- Available time slots
+- Appointment types
+- Active / inactive schedules
+
+---
+
+## Database
+
+The application uses a local SQLite database.
+
+Main tables:
+
+- utilisateurs
+- rendez_vous
+- disponibilites
+
+---
+
+# Technologies Used
+
 - Flutter
 - Dart
-
-### Base de données
 - SQLite
-- Sqflite
-
-### Outils et bibliothèques
 - sqflite
 - sqflite_common_ffi
-- intl
-- path
+- Material Design
+- Poppins Font
 
-## Architecture
+---
 
-Le projet est structuré autour de :
+# Project Structure
 
-- Modèles de données
-- Services métier
-- Gestion de la base de données
-- Gestion des sessions utilisateurs
-- Interfaces graphiques Flutter
+```
+lib/
+android/
+ios/
+assets/
+web/
+windows/
+linux/
+macos/
+test/
+pubspec.yaml
+README.md
+```
 
-## Compétences mises en œuvre
+---
 
-- Développement mobile avec Flutter
-- Programmation orientée objet
-- Gestion de bases de données relationnelles
-- Conception d'interfaces utilisateur
-- Gestion des rôles et des droits d'accès
-- Architecture logicielle
-- Génie logiciel
+# Main Functionalities
 
-## Auteur
+✔ Secure Authentication
+
+✔ Role-Based Access Control
+
+✔ Appointment Reservation
+
+✔ Appointment Cancellation
+
+✔ Appointment History
+
+✔ Administrator Dashboard
+
+✔ Teacher Dashboard
+
+✔ Parent Dashboard
+
+✔ SQLite Database
+
+✔ Statistics
+
+✔ User Management
+
+✔ Availability Management
+
+✔ Responsive User Interface
+
+---
+
+# Screenshots
+
+Application screenshots can be added in the folder:
+
+```
+assets/screenshots/
+```
+
+Example:
+
+- Home page
+- Login page
+- Parent dashboard
+- Teacher dashboard
+- Administrator dashboard
+- Appointment booking
+- Statistics page
+
+---
+
+# Demonstration Video
+
+A complete demonstration of the application is available here:
+
+▶ https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
+
+(Replace this link with your own YouTube video.)
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/kenzabelkacem-bit/creche-management-system.git
+```
+
+Install dependencies
+
+```bash
+flutter pub get
+```
+
+Run the application
+
+```bash
+flutter run
+```
+
+---
+
+# Future Improvements
+
+Possible future enhancements include:
+
+- Push notifications
+
+- Email notifications
+
+- Online synchronization
+
+- Firebase integration
+
+- Cloud database
+
+- QR Code support
+
+- Dark mode
+
+- Multi-language support
+
+---
+
+# Project Information
+
+Project Name:
+
+EducaRendez
+
+Project Type:
+
+Academic Mobile Application
+
+Framework:
+
+Flutter
+
+Programming Language:
+
+Dart
+
+Database:
+
+SQLite
+
+Platform:
+
+Android / Windows
+
+---
+
+# Author
 
 Kenza Belkacem
 
-Étudiante en Ingénierie de l'Intelligence Artificielle
+Artificial Intelligence Engineering Student
 
-Université Mouloud Mammeri de Tizi Ouzou (UMMTO)
+Mouloud Mammeri University of Tizi-Ouzou
 
-## Contexte académique
+Algeria
 
-Projet réalisé dans le cadre de la formation d'Ingénieur d'État en Intelligence Artificielle.
+---
+
+# License
+
+This project is developed for academic purposes.

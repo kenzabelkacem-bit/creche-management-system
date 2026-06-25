@@ -1,0 +1,47 @@
+name: prejetdevmobile
+
+description: Application Flutter de réservation scolaire (visiteur / parent / admin)
+publish_to: 'none' # car projet local
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Gestion d'état
+  provider: ^6.0.5
+
+  # Base SQLite (mobile)
+  sqflite: ^2.2.8
+
+  # Base SQLite (Windows/Linux/Mac) — compatible avec Dart 3.9.2
+  sqflite_common_ffi: ^2.3.6
+
+  # Gestion des chemins
+  path: ^1.9.0
+
+  # Dates et formats
+  intl: ^0.18.1
+
+  # Notifications locales (optionnel, pour rappels parents)
+  flutter_local_notifications: ^17.0.0
+
+  # Génération PDF (optionnel, pour export admin)
+  pdf: ^3.10.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Outils de lint
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img.png
