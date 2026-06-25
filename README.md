@@ -180,8 +180,6 @@ Application screenshots can be added in the folder:
 assets/screenshots/
 ```
 
-Example:
-
 - Home page
 - Login page
 - Parent dashboard
@@ -189,16 +187,6 @@ Example:
 - Administrator dashboard
 - Appointment booking
 - Statistics page
-
----
-
-# Demonstration Video
-
-A complete demonstration of the application is available here:
-
-▶ https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
-
-(Replace this link with your own YouTube video.)
 
 ---
 
