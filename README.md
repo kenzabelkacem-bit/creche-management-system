@@ -1,118 +1,126 @@
 # EducaRendez
 
-## School Appointment Management System
+## Application de gestion des rendez-vous scolaires
 
-EducaRendez is a cross-platform mobile application developed using Flutter. It allows parents, teachers and school administrators to efficiently manage appointments through a modern, secure and user-friendly interface.
+EducaRendez est une application multiplateforme développée avec **Flutter** dans le cadre d'un projet académique universitaire.
 
-This project was developed as part of an academic mobile application development project.
+L'application permet aux **parents**, **enseignants** et **administrateurs** d'un établissement scolaire de gérer efficacement les rendez-vous grâce à une interface moderne, intuitive et sécurisée.
 
----
-
-# Features
-
-## Authentication
-
-- Secure login
-- User registration
-- Session management
+L'objectif principal est de faciliter la communication entre les différents acteurs de l'établissement tout en simplifiant l'organisation des rendez-vous.
 
 ---
 
-## User Roles
+# Aperçu du projet
 
-The application supports three different user roles:
+- **Nom du projet :** EducaRendez
+- **Type :** Application mobile académique
+- **Framework :** Flutter
+- **Langage :** Dart
+- **Base de données :** SQLite
+- **Plateformes :** Android • Windows
+- **Architecture :** Flutter + SQLite
 
-- Administrator
-- Teacher
+---
+
+# Fonctionnalités principales
+
+## Authentification
+
+- Connexion sécurisée
+- Création de compte
+- Gestion des sessions
+- Déconnexion
+
+---
+
+## Gestion des utilisateurs
+
+L'application distingue trois catégories d'utilisateurs :
+
+- Administrateur
+- Enseignant
 - Parent
 
-Each role has its own dashboard and permissions.
+Chaque profil dispose d'un espace personnel et de fonctionnalités adaptées à ses besoins.
 
 ---
 
-## Parent Dashboard
+## Tableau de bord Parent
 
-Parents can:
+Le parent peut :
 
-- Sign in securely
-- View available appointment slots
-- Book appointments
-- View their appointment history
-- Cancel appointments
-- Access their personal profile
-
----
-
-## Teacher Dashboard
-
-Teachers can:
-
-- Access their professional dashboard
-- View appointments
-- Manage their schedule
-- Consult appointment information
+- consulter les créneaux disponibles ;
+- réserver un rendez-vous ;
+- consulter l'historique de ses rendez-vous ;
+- annuler un rendez-vous ;
+- gérer son profil.
 
 ---
 
-## Administrator Dashboard
+## Tableau de bord Enseignant
 
-The administrator has complete control over the application.
+L'enseignant peut :
 
-Main functionalities include:
-
-- User management
-- Appointment management
-- Availability management
-- Statistics dashboard
-- Reports
-- User administration
-- Appointment status management
-- System monitoring
+- consulter son planning ;
+- gérer ses disponibilités ;
+- consulter les demandes de rendez-vous ;
+- suivre les rendez-vous programmés.
 
 ---
 
-## Appointment Management
+## Tableau de bord Administrateur
 
-The application allows users to:
+L'administrateur dispose d'un accès complet aux fonctionnalités de l'application :
 
-- Create appointments
-- Cancel appointments
-- Confirm appointments
-- Check availability
-- Manage appointment status
-
-Appointment status:
-
-- Pending
-- Confirmed
-- Cancelled
+- gestion des utilisateurs ;
+- gestion des rendez-vous ;
+- gestion des disponibilités ;
+- statistiques ;
+- rapports d'exploitation ;
+- paramètres du système ;
+- supervision générale.
 
 ---
 
-## Availability Management
+## Gestion des rendez-vous
 
-The system manages:
+L'application permet :
 
-- Weekly schedules
-- Available time slots
-- Appointment types
-- Active / inactive schedules
+- la création de rendez-vous ;
+- la confirmation d'un rendez-vous ;
+- l'annulation d'un rendez-vous ;
+- le suivi de l'état des rendez-vous.
 
----
+Les différents états sont :
 
-## Database
-
-The application uses a local SQLite database.
-
-Main tables:
-
-- utilisateurs
-- rendez_vous
-- disponibilites
+- En attente
+- Confirmé
+- Annulé
 
 ---
 
-# Technologies Used
+## Gestion des disponibilités
+
+Le système permet :
+
+- d'ajouter des disponibilités ;
+- de modifier les créneaux horaires ;
+- de supprimer des disponibilités ;
+- d'activer ou désactiver un planning.
+
+---
+
+## Statistiques et rapports
+
+L'application fournit :
+
+- des statistiques sur les rendez-vous ;
+- des rapports d'exploitation ;
+- des tableaux de bord permettant de suivre l'activité du système.
+
+---
+
+# Technologies utilisées
 
 - Flutter
 - Dart
@@ -124,17 +132,18 @@ Main tables:
 
 ---
 
-# Project Structure
+# Structure du projet
 
-```
+```text
 lib/
+assets/
+screenshots/
 android/
 ios/
-assets/
-web/
-windows/
 linux/
 macos/
+web/
+windows/
 test/
 pubspec.yaml
 README.md
@@ -142,69 +151,101 @@ README.md
 
 ---
 
-# Main Functionalities
+# Captures d'écran
 
-✔ Secure Authentication
+## Accueil
 
-✔ Role-Based Access Control
-
-✔ Appointment Reservation
-
-✔ Appointment Cancellation
-
-✔ Appointment History
-
-✔ Administrator Dashboard
-
-✔ Teacher Dashboard
-
-✔ Parent Dashboard
-
-✔ SQLite Database
-
-✔ Statistics
-
-✔ User Management
-
-✔ Availability Management
-
-✔ Responsive User Interface
+![Accueil](screenshots/Accueil.png)
 
 ---
 
-# Screenshots
+## Connexion
 
-Application screenshots can be added in the folder:
+![Connexion](screenshots/Interfaces-connexion.png)
 
-```
-assets/screenshots/
-```
+---
 
-- Home page
-- Login page
-- Parent dashboard
-- Teacher dashboard
-- Administrator dashboard
-- Appointment booking
-- Statistics page
+## Création d'un compte
+
+![Création](screenshots/interfaces-création-nvComptes.png)
+
+---
+
+## Tableau de bord Administrateur
+
+![Dashboard](screenshots/Tableau%20de%20bord.png)
+
+---
+
+## Gestion des utilisateurs
+
+![Utilisateurs](screenshots/Utilisateurs.png)
+
+---
+
+## Réservation d'un rendez-vous
+
+![Réservation](screenshots/Nouvelle-Réservation.png)
+
+---
+
+## Créneaux disponibles
+
+![Créneaux](screenshots/Créneaux-dispo.png)
+
+---
+
+## Gestion des disponibilités
+
+![Disponibilités](screenshots/Disponibilités-ajout&supp.png)
+
+---
+
+## Modification des disponibilités
+
+![Modification](screenshots/modifier-Dispo.png)
+
+---
+
+## Statistiques
+
+![Statistiques](screenshots/Statistiques.png)
+
+---
+
+## Rapports d'exploitation
+
+![Rapports](screenshots/Rapports&Exploitations.png)
+
+---
+
+## Paramètres du système
+
+![Paramètres](screenshots/Paramètres%20Système.png)
+
+---
+
+## Mode sombre
+
+![Mode sombre](screenshots/Mode-sombre.png)
 
 ---
 
 # Installation
 
-Clone the repository
+### Cloner le dépôt
 
 ```bash
 git clone https://github.com/kenzabelkacem-bit/creche-management-system.git
 ```
 
-Install dependencies
+### Installer les dépendances
 
 ```bash
 flutter pub get
 ```
 
-Run the application
+### Exécuter l'application
 
 ```bash
 flutter run
@@ -212,68 +253,35 @@ flutter run
 
 ---
 
-# Future Improvements
+# Perspectives d'amélioration
 
-Possible future enhancements include:
+Plusieurs évolutions peuvent être envisagées :
 
-- Push notifications
-
-- Email notifications
-
-- Online synchronization
-
-- Firebase integration
-
-- Cloud database
-
-- QR Code support
-
-- Dark mode
-
-- Multi-language support
+- intégration de Firebase ;
+- notifications Push ;
+- notifications par e-mail ;
+- synchronisation Cloud ;
+- authentification renforcée ;
+- prise en charge des QR Codes ;
+- internationalisation (multilingue) ;
+- sauvegarde des données en ligne.
 
 ---
 
-# Project Information
+# À propos de la développeuse
 
-Project Name:
+**Kenza Belkacem**
 
-EducaRendez
+Étudiante en **3ᵉ année du cycle Ingénieur d'État en Intelligence Artificielle**
 
-Project Type:
+Université Mouloud Mammeri de Tizi-Ouzou (UMMTO)
 
-Academic Mobile Application
+Algérie
 
-Framework:
-
-Flutter
-
-Programming Language:
-
-Dart
-
-Database:
-
-SQLite
-
-Platform:
-
-Android / Windows
+Ce projet a été réalisé dans le cadre de ma formation universitaire afin de mettre en pratique les compétences acquises en développement mobile, conception logicielle, gestion de bases de données et interfaces utilisateurs.
 
 ---
 
-# Author
+# Licence
 
-Kenza Belkacem
-
-Artificial Intelligence Engineering Student
-
-Mouloud Mammeri University of Tizi-Ouzou
-
-Algeria
-
----
-
-# License
-
-This project is developed for academic purposes.
+Ce projet est diffusé exclusivement à des fins académiques et pédagogiques.
