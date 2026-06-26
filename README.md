@@ -155,79 +155,79 @@ README.md
 
 ## Accueil
 
-![Accueil](screenshots/Accueil.png)
+![Accueil](Screenshots/Accueil.png)
 
 ---
 
 ## Connexion
 
-![Connexion](screenshots/Interfaces-connexion.png)
+![Connexion](Screenshots/Interfaces-connexion.png)
 
 ---
 
 ## Création d'un compte
 
-![Création](screenshots/interfaces-création-nvComptes.png)
+![Création](Screenshots/interfaces-création-nvComptes.png)
 
 ---
 
 ## Tableau de bord Administrateur
 
-![Dashboard](screenshots/Tableau%20de%20bord.png)
+![Dashboard](Screenshots/Tableau%20de%20bord.png)
 
 ---
 
 ## Gestion des utilisateurs
 
-![Utilisateurs](screenshots/Utilisateurs.png)
+![Utilisateurs](Screenshots/Utilisateurs.png)
 
 ---
 
 ## Réservation d'un rendez-vous
 
-![Réservation](screenshots/Nouvelle-Réservation.png)
+![Réservation](Screenshots/Nouvelle-Réservation.png)
 
 ---
 
 ## Créneaux disponibles
 
-![Créneaux](screenshots/Créneaux-dispo.png)
+![Créneaux](Screenshots/Créneaux-dispo.png)
 
 ---
 
 ## Gestion des disponibilités
 
-![Disponibilités](screenshots/Disponibilités-ajout&supp.png)
+![Disponibilités](Screenshots/Disponibilités-ajout&supp.png)
 
 ---
 
 ## Modification des disponibilités
 
-![Modification](screenshots/modifier-Dispo.png)
+![Modification](Screenshots/modifier-Dispo.png)
 
 ---
 
 ## Statistiques
 
-![Statistiques](screenshots/Statistiques.png)
+![Statistiques](Screenshots/Statistiques.png)
 
 ---
 
 ## Rapports d'exploitation
 
-![Rapports](screenshots/Rapports&Exploitations.png)
+![Rapports](Screenshots/Rapports&Exploitations.png)
 
 ---
 
 ## Paramètres du système
 
-![Paramètres](screenshots/Paramètres%20Système.png)
+![Paramètres](Screenshots/Paramètres%20Système.png)
 
 ---
 
 ## Mode sombre
 
-![Mode sombre](screenshots/Mode-sombre.png)
+![Mode sombre](Screenshots/Mode-sombre.png)
 
 ---
 
